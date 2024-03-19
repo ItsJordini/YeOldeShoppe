@@ -1,0 +1,380 @@
+/*Common elements*/
+body {
+    cursor:url(img/StaffCursor.png) pointer;
+    font-size: 67.5%;
+    font-family: 'Courier New', Courier, monospace;
+    background: url(img/the_wizard_tower___fantasy_background_by_luxadesigns_df4zmze-pre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+h1 {
+    color:#690ae4;
+    font-size: 2em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0 0 0;
+    text-align: center;
+}
+
+h2 {
+    color:#690ae4;
+    font-size: 2.2em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+    border-radius:  0 .5rem 0.5rem 0rem;
+    text-align: center;
+    
+}
+
+h3 {
+    color:#690ae4;
+    font-size: 1.8em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+    border-radius:  0 .5rem 0.5rem 0rem;
+    text-align: center;
+     
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #000000;
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+}
+
+ol {
+    font-size: 2em;
+    margin: 0 0 0 1.0em;
+    padding: 0 0 0 1.0em;
+}
+
+/*collection*/
+
+.item {
+    width: 100px;
+    display:flex;
+    padding: 11px 10px;;
+    font-size: 16px;
+    position: relative;
+    border-radius: 1rem;
+    color: #000000;
+    background: silver;
+    border: solid 2px silver;
+    border-radius: 3px;
+    box-shadow:  
+    2px 2px 2px 2px rgba(0, 0, 0, 1),
+    2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+a, a:visited {
+    font-size: .8em;
+    color: #000000;
+    background-repeat: no-repeat;
+    background-position: -15px -10px; 
+    background-size: 250px;
+}
+
+a:hover {
+    color: gold;;
+}
+
+
+hr {
+    padding: 0;
+    margin: 1.5em 1.5em 0.75em 0.5em;
+}
+
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 0 2em;;
+    background: url(img/photo-1475274047050-1d0c0975c63e.webp);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/*Header*/
+header {
+    padding:0 0 3px ;
+    margin:0 0 3px;
+    background: color(srgb red green blue) center 0px;
+}
+
+header h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gold;
+    font-size: 7.5em;
+    letter-spacing: -0.025em;    
+    text-shadow: 1px 5px 0 rgb(124, 106, 2);
+}
+
+div.clear { 
+    clear:both;
+    font-size: 1%;
+}
+
+/*Nav Bars*/
+nav {
+    color: #000000;
+    font-size: 1.7em;
+    letter-spacing: 0.1em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #6f00ff;
+    padding: 0.3em 0.6em;
+}
+
+nav li a:hover {
+    color: #C64322;
+    background-color: rgba(226, 205, 48, 0.75);
+}
+
+nav#menu {
+    float: right;
+    margin: -.3em 0 0 0;
+    padding: 0.35em;
+    height: 1em;
+}
+
+nav#menu li {
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: middle;    
+}
+
+nav#menu ul li.acctNav a, nav#utilitymenu ul li.acctNav a:visited {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    height: 1.3em;
+    padding: 0.5em;
+    margin: -0.4em 0 0 0;
+    font-size: 0.8em;
+}
+
+nav#menu ul li.acctNav a.active {
+    background-color: #71c622;
+}
+
+nav#menu ul li.acctNav a:hover {
+    background-color: rgba(13, 10, 211, 0.7);
+    color: #162a9b;
+}
+
+nav#menu li a, nav#utilityMenu li a:visited { padding: 0;}
+nav#menu li a:hover { background-color: transparent;}
+nav#menu ul li input#search {
+    vertical-align: middle;
+    margin: 0 0 0 1.0em;
+}
+
+nav#menu ul li.acctNav::before, nav#utilityMenu ul li input#search::before {
+    content: "| ";
+    color: #FCFBE6;
+}
+
+/*Sidebar Section*/
+
+section#catalog {
+    width: 200px;
+    float: left;
+    position: relative;
+    display: block;
+    background-image: url(img/contentpattern.jpg);
+    margin:4.6em 0 0 -2em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border: #370677 solid 10px;
+    box-shadow:  
+    2px 2px 2px 2px rgba(0, 0, 0, 1),
+    2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+/*form*/
+
+form {
+    width: 130px;
+    background-color: silver;
+    border: solid 2px silver;
+    border-radius: 3px;
+    box-shadow:  
+    2px 2px 2px 2px rgba(0, 0, 0, 1),
+    2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+
+form input, form button {
+    box-sizing: border-box;
+    margin: .1rem ;
+    padding: .1rem;
+    line-height: .5rem;
+    font-size: .6rem;
+    border: solid 1px gold;
+    border-radius: 3px;
+}
+
+form button {
+    color: white;
+    background-image: url(img/BecomeaMemberA.png);
+}
+ 
+/*Right side section*/
+section#ad {
+    width: 300px;
+    height: 200px;
+    float: right;
+    position: relative;
+    display: block;
+    background-image: url(img/contentpattern.jpg);
+    margin: 4.6em -2em 5em 2em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border: #370677 solid 10px;
+    box-shadow:  
+    2px 2px 2px 2px rgba(0, 0, 0, 1),
+    2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+}
+section#ad iframe {
+    border-radius: 1rem 1rem 1rem;
+    transform: translate(-8px);
+    border-color: red;
+    align-items: center;
+    box-shadow:  
+    2px 2px 2px 2px rgba(0, 0, 0, 1),
+    2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+/*Main Section*/
+section #main {
+    /*background-color: #fce497;*/
+    background-color:#fce497;
+    margin: 0 0 2em 2em;
+    padding: 1.5em 2em 2em 1.5em;
+    display: inline-block;
+    border-radius: 5em;
+    box-shadow: 5px 5px 5px #777;
+    /* offset-x | offset-y | blur-radius | color */
+}
+
+section div.panel {
+    float: left;
+    position: relative;
+    width: 270px;
+    margin: 0.5em 0 2em 1.4em;
+    padding: 1.0em;
+    background-image: url(img/contentpattern.jpg);
+    border:  #370677 solid 2px;
+    border-radius: 3em;
+    box-shadow:  
+    2px 2px 2px 2px rgba(0, 0, 0, 1),
+    2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+section div.panel2{
+    float: left;
+    position: relative;
+    width: 700px;
+    margin:0.5em 0 2em 1.4em;
+    padding: 1.0em;
+    border:  #370677 solid 2px;
+    border-radius: 3em;
+    box-shadow:  
+    2px 2px 2px 2px rgba(0, 0, 0, 1),
+    2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+}
+section div.panel2 {
+    background-image:url(img/goldcoin.webp),url(img/contentpattern.jpg);
+    background-size: auto;
+    background-position:-250px -50px, bottom; 
+}
+
+section div.panel img.itemType {
+    width: 100%;
+    border-radius: 2em;
+}
+
+/*Footer*/
+footer {
+    background-color: #250246;
+    height: 25px;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    padding: 3em;
+}
+
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+button {
+    color: #C64322;
+    background-image: url(img/buy-now-btn.jpg);
+    width: 90px;
+    height: 23px;
+    display: inline-block;
+    margin: 0 0.75em 0 0;
+    padding: 0.2em 0.5em;
+    text-transform: uppercase;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+button:hover {
+    background-color: #1c0357;
+    border: 1px solid #745b2f;
+}
+
+/*First storeFrontDone!*/
